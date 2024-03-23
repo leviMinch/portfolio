@@ -18,10 +18,10 @@
   },
   "scripts": {
     "build": "react-scripts build",
+    "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "node backend/server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install && npm run build"
+    "heroku-postbuild": "cd backend && NPM_CONFIG_PRODUCTION=false npm install && npm run build"
   },
   "engines": {
     "node": "21.6.2"
