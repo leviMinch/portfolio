@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
 import { BrowserRouter as Router } from 'react-router-dom';
-import './App.css';
 import Navbar from './components/Navbar';
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
@@ -10,15 +9,17 @@ import Contact from './components/pages/Contact';
 
 const App = function () {
 	return (
-		<div className='App'>
+		<div className = "bg-cool-photo h-full bg-cover bg-center min-h-screen">
 			<Router>
 				<Navbar />
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/projects" element={<Projects />} />
-					<Route path="/contact" element={<Contact />} />
-				</Routes>
+				<div className='pt-20 md:pt-24'>
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/about" element={<About />} />
+						<Route path="/projects" element={<Projects />} />
+						<Route path="/contact" element={<Contact />} />
+					</Routes>
+				</div>
 			</Router>
 		</div>
 	)
