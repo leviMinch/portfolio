@@ -8,8 +8,13 @@ import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 
 const App = function () {
+	useEffect(() => {
+		document.title = "Portfolio"
+	  }, [])
+	
 	return (
 		<div className = "h-full bg-cover bg-center min-h-screen">
+			<title>Test</title>
 			<Router>
 				<Navbar />
 				<div>

@@ -4,7 +4,6 @@ import { GoHome, GoHomeFill } from "react-icons/go";
 
 function Navbar(){
     return(
-        // Adjust the padding and height here
         <nav className="fixed top-0 left-0 w-full z-50 py-4 bg-cyan-950 ">
             <div className="container mx-auto flex justify-between items-center text-white opacity-50 hover:opacity-100 transition-opacity duration-400">
                 <div className="flex items-center">

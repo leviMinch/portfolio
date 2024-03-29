@@ -1,16 +1,19 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom';
+import selfPhoto from '../../images/selfphoto.JPG'
 
 
 const Home = () => {
   return (
     <div class = "bg-cool-photo h-full bg-cover bg-center min-h-screen">  
       <div class = "min-h-screen grid place-content-center text-white opacity-85">
-        <div className="border-2 border-slate-350 rounded-2xl p-10 text-5xl grid text-center">
+        <div className="border-2 border-slate-350 rounded-2xl p-10 text-5xl text-center flex flex-col items-center">
           
           <h1 className ="pb-3">
             Welcome to my Webpage!
           </h1>
+
+          <img src={selfPhoto} alt="photo of me" className='items-center border-4 rounded-full opacity-100 w-64 h-64'/>
 
           <p className="text-2xl">
             Hi, my name is Levi Minch. I'm an undergraduate student at Oregon State 
