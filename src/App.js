@@ -9,10 +9,10 @@ import Contact from './components/pages/Contact';
 
 const App = function () {
 	return (
-		<div className = "bg-cool-photo h-full bg-cover bg-center min-h-screen">
+		<div className = "h-full bg-cover bg-center min-h-screen">
 			<Router>
 				<Navbar />
-				<div className='pt-20 md:pt-24'>
+				<div>
 					<Routes>
 						<Route path="/" element={<Home />} />
 						<Route path="/about" element={<About />} />
