@@ -17,7 +17,7 @@ const Projects = () => {
                 </p>
             </div>
         </li>
-        <li className="group flex flex-col items-center border-4 bg-slate-600 py-6 px-2 rounded-3xl shadow-xl max-w-md hover:border-blue-400 hover:max-w-xl transition-all duration-300 relative overflow-hidden">
+        <a href="https://www.youtube.com/watch?v=VmFz6sOiWhc&t=13s" target="_blank" className="group flex flex-col items-center border-4 bg-slate-600 py-6 px-2 rounded-3xl shadow-xl max-w-md hover:border-blue-400 hover:max-w-xl transition-all duration-300 relative overflow-hidden">
             <img src={FinanceLogo} alt="FinanceApp" class="w-2/3 mb-6 group-hover:w-full transition-all duration-400"/>
             <h3 className="text-2xl text-center group-hover:text-4xl transition-all duration-400">
                 Budgeting App Prototype for Students
@@ -25,7 +25,7 @@ const Projects = () => {
             <div className="text-center text-xl absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <p>A in-depth look into a prototype app for a budgeting app. Designed by myself and others.</p>
             </div>
-        </li>
+        </a>
       </ul>
     </div>
   )
